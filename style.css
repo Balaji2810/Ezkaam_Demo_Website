@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+@font-face {
+    font-family: "Bebas" ;
+    src: url("Resources/Bebas-Regular.ttf");
+}
+
+
+.container
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 30%;
+    min-width: 250px;
+    max-width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.construction{
+    min-width: 250px;
+    max-width: 700px;
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.LaunchingSoon{
+    color: #f8c047;
+    font-size: 1.5em;
+    
+    font-family: Bebas;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+@media only screen and (min-width : 320px) and (orientation: portrait) {
+    .LaunchingSoon{
+        color: #f8c047;
+        font-size: 1.5em;
+        
+        font-family: Bebas;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+    }
+
+}
+
+@media only screen and (min-width : 360px) and (orientation: portrait) {
+    .LaunchingSoon{
+        color: #f8c047;
+        font-size: 1.5em;
+        
+        font-family: Bebas;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+    }
+
+}
+
+@media only screen and (min-width : 1279px){
+    .LaunchingSoon{
+        color: #f8c047;
+        font-size: 3em;
+        
+        font-family: Bebas;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+    }
+
+}
